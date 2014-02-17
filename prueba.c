@@ -3,11 +3,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-//variables globales
-
-char kkk[1000];
-
-//--------------------------------------------------------------------
 // main
 
 
@@ -64,7 +59,6 @@ int main(int prueba, char** lista_arg){
 //imprime valores iniciales
   printf("nombre Programa: %s\n", nomP);
   printf("Nombre archivo de prueba: %s\n", archivoVectores);
- // printf("vector %s\n",vector[11]); 	
   fclose(Archivo);
   return 0;
 }
